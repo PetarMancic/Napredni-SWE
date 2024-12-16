@@ -48,13 +48,13 @@ Da biste pokrenuli i kreirali Webflow projekat, pratite sledeće korake:
 ### **1. Registracija i prijava na Webflow**
 - Posetite [Webflow zvaničnu stranicu](https://webflow.com).
 - Kliknite na "Get Started" ili "Sign Up" ako još nemate nalog.
-- Izgled oficijalnog WebFlow sajta ![Webflow official site](assets/WebFlow%20official%20site.png)
+- Izgled oficijalnog WebFlow sajta ![Webflow official site](assets/WebFlowOfficialSite.png)
 - Registrujte se koristeći email adresu ili Google nalog.
 - Prijavite se u svoj Webflow nalog.
 
 ### **2. Kreiranje novog projekta**
 - Kada se prijavite, na početnoj stranici kliknite na **"Create New Project"**.
-- ![Izgled WebFlow sajta nakon uspenog prijavljivanja] (assets/Izgled%20sajta%20nakon%20logovanja)
+- ![Izgled WebFlow sajta nakon uspenog prijavljivanja](assets/Izgled%20sajta%20nakon%20logovanja.png)
 - Izaberite jedan od dostupnih **template-a** (predložaka) ili izaberite **blank project** za kreiranje sajta od nule.
   - Ako koristite predložak, samo odaberite dizajn koji vam se sviđa.
   - Ako birate praznu opciju, bićete preusmereni na prazan radni prostor gde možete početi sa dizajnom.
