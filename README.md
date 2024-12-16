@@ -42,16 +42,19 @@ Ovaj alat je idealan za one koji teže profesionalnim rezultatima, a žele da pr
 
 ## **4. Koraci za kreiranje i pokretanje Webflow projekta**
 
+Odmah cemo napomenuti da instalacija koja je potrebna u nekim ddrugim tenhologijama poput Reacta, Angulara, ovde nije potrebna.
 Da biste pokrenuli i kreirali Webflow projekat, pratite sledeće korake:
 
 ### **1. Registracija i prijava na Webflow**
 - Posetite [Webflow zvaničnu stranicu](https://webflow.com).
 - Kliknite na "Get Started" ili "Sign Up" ako još nemate nalog.
+- Izgled oficijalnog WebFlow sajta ![Webflow official site](assets/WebFlow%20official%20site.png)
 - Registrujte se koristeći email adresu ili Google nalog.
 - Prijavite se u svoj Webflow nalog.
 
 ### **2. Kreiranje novog projekta**
 - Kada se prijavite, na početnoj stranici kliknite na **"Create New Project"**.
+- ![Izgled WebFlow sajta nakon uspenog prijavljivanja] (assets/Izgled%20sajta%20nakon%20logovanja)
 - Izaberite jedan od dostupnih **template-a** (predložaka) ili izaberite **blank project** za kreiranje sajta od nule.
   - Ako koristite predložak, samo odaberite dizajn koji vam se sviđa.
   - Ako birate praznu opciju, bićete preusmereni na prazan radni prostor gde možete početi sa dizajnom.
