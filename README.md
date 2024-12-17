@@ -55,16 +55,20 @@ Da biste pokrenuli i kreirali Webflow projekat, pratite sledeće korake:
 ### **2. Kreiranje novog projekta**
 - Kada se prijavite, na početnoj stranici kliknite na **"Create New Project"**.
 - ![Izgled WebFlow sajta nakon uspenog prijavljivanja](assets/Izgled%20sajta%20nakon%20logovanja.png)
-- Izaberite jedan od dostupnih **template-a** (predložaka) ili izaberite **blank project** za kreiranje sajta od nule.
+- Izaberite jedan od dostupnih **template-a** (predloženih) ili izaberite **blank project** za kreiranje sajta od nule.
   - Ako koristite predložak, samo odaberite dizajn koji vam se sviđa.
   - Ako birate praznu opciju, bićete preusmereni na prazan radni prostor gde možete početi sa dizajnom.
 
 ### **3. Dizajniranje sajta**
+-![Ovako izgleda novi projekat koji se pokrene ](assets/New%20Project.png)
+-Sa leve strane se nalazi takozvani "HTML" panel, koji sluzi za dodavanje razlicih elemanata, divova, sekcija, buttons, itd
+-Sa desne strane se nalazi "CSS" panel, koji se koristi za stilizaciju dodatih elemanata i stranice u potpunosti.
 - **Dodavanje elemenata**: Koristite panel sa leve strane da dodate različite elemente poput teksta, slika, dugmadi i formulara.
 - **Stilizovanje**: Na desnoj strani, možete koristiti opcije za stilizovanje svakog elementa, kao što su boje, margine, padding, veličine fontova i druge opcije.
-- **Responzivnost**: Webflow automatski prilagođava dizajn za različite uređaje (mobilne telefone, tablete, desktop), ali možete dodatno prilagoditi dizajn za svaki uređaj putem opcije "Device Preview".
+- **Responsive**: Webflow automatski prilagođava dizajn za različite uređaje (mobilne telefone, tablete, desktop), ali možete dodatno prilagoditi dizajn za svaki uređaj putem opcije "Device Preview".
 
 ### **4. Dodavanje interakcija i animacija**
+-WebFlow tehnologija omogucava da na veoma lak i intuitivan nacin dodamo animacije nekim elementima koji smo prethodno dodali.
 - Da biste dodali animacije i interakcije, izaberite element koji želite da animirate.
 - U panelu desno izaberite opciju **"Interactions"** i postavite željene animacije kao što su prelazi (transitions), hover efekti ili animacije pri skrolovanju stranice.
 
@@ -75,13 +79,54 @@ Da biste pokrenuli i kreirali Webflow projekat, pratite sledeće korake:
   - Slijedite instrukcije da povežete domen i postavite DNS zapise kod svog hosting provajdera.
 
 ### **6. Pregled sajta**
-- Da biste pregledali svoj projekat, kliknite na dugme **"Preview"** u gornjem desnom kutu ekrana.
-- Ovo će omogućiti da vidite kako vaša stranica izgleda pre nego što je objavite.
+### **Pregled sajta pre objavljivanja**
+
+Pre nego što objavite svoj projekat, preporučuje se da ga pregledate kako biste osigurali da sve funkcioniše kako ste zamislili. Slede koraci za pregled:
+
+1. Kliknite na dugme **"Preview"** (*prečica: ALT+P*) koje se nalazi u gornjem levom uglu radnog prostora.  
+- ![Preview dugme koje nam omogucava da pregledamo svoj projekat pre publishovanja](assets/preview.png)
+2. U režimu pregleda možete videti kako vaša stranica izgleda i funkcioniše, uključujući:  
+   - **Animacije i interakcije** koje ste implementirali.  
+   - **Linkove i dugmad** kako biste proverili da li vode na ispravne stranice.  
+   - **Responzivni dizajn** za različite veličine ekrana.  
+
+#### **Testiranje za različite uređaje**
+- Kliknite na ikonu uređaja u gornjem delu ekrana da biste prebacivali prikaz između **desktop**, **tablet** i **mobilnog uređaja**.  
+- Proverite da li je svaki element pravilno pozicioniran i da nema preklapanja sadržaja na manjim ekranima.
+
+#### **Izmena i povratak u dizajn režim**
+- Ako primetite nedostatke, možete se vratiti u **Design Mode** klikom na isto dugme **"Preview"** u gornjem levom uglu.  
+- Nakon što ispravite greške, ponovo koristite **Preview** kako biste proverili izmene.  
+
+Ovaj korak je ključan kako biste osigurali da vaš sajt izgleda profesionalno i da funkcioniše ispravno pre nego što ga objavite.
 
 ### **7. Publikovanje sajta**
-- Kada ste zadovoljni sa dizajnom, kliknite na **"Publish"** dugme u gornjem desnom kutu.
-- Izaberite opciju za objavljivanje na Webflow-ovoj domeni ili na svom prilagođenom domenu (ako ste ga povezali).
-- Kliknite na **"Publish"** i vaš sajt će biti objavljen.
+
+Kada ste završili sa dizajnom i pregledom sajta, poslednji korak je da ga objavite i učinite dostupnim publici. Evo kako to možete da uradite:
+
+1. **Zadovoljstvo dizajnom**  
+   Pre nego što objavite, proverite sve elemente na sajtu, kao i funkcionalnost, kako biste bili sigurni da je sve u skladu sa vašim očekivanjima. Kada ste zadovoljni sa izgledom i radom sajta, možete preći na objavljivanje.
+
+2. **Kliknite na dugme "Publish"**  
+   U gornjem desnom kutu radnog prostora, kliknite na **"Publish"** dugme. Ovo će otvoriti opcije za objavljivanje sajta.
+
+3. **Izbor domena**  
+-![Publish prozor](assets/publish.png)
+   Nakon što kliknete na "Publish", biće vam ponuđene dve opcije:
+   - **Objavljivanje na Webflow-ovoj domeni**: Ako nemate svoj sopstveni domen, možete objaviti sajt na Webflow-ovom besplatnom domeni (npr. `imeprojekta.webflow.io`).
+   - **Objavljivanje na prilagođenom domenu**: Ako želite da povežete svoj sajt sa sopstvenim domenom, izaberite opciju za povezivanje sa vašim domenom (ako ste to prethodno postavili u **Project Settings** > **Hosting**). Morate imati podešene DNS zapise kod vašeg hosting provajdera.
+
+4. **Kliknite na "Publish"**  
+   Nakon što izaberete odgovarajuću opciju za objavljivanje, kliknite na **"Publish"**. Webflow će automatski objaviti vaš sajt i učiniti ga dostupnim na internetu.
+
+5. **Provera objavljenog sajta**  
+   Kada je sajt objavljen, možete ga pregledati putem odabranog domena. Ako ste koristili Webflow-ovu domen, možete pristupiti sajtu putem URL-a poput `imeprojekta.webflow.io`. Ako ste povezali sopstveni domen, sajt će biti dostupan na tom domenu.
+
+6. **Redovno ažuriranje sajta**  
+   Nakon objavljivanja sajta, možete nastaviti da pravite izmene i ponovo objavljujete ažuriranja. Svaki put kada kliknete na **"Publish"**, sajt će biti ažuriran sa najnovijim promenama.
+
+Ovaj proces omogućava da vaš projekat bude dostupan široj publici, bilo na besplatnom Webflow domenu ili vašem sopstvenom prilagođenom domenu.
+
 
 ### **8. Preuzimanje Webflow fajlova (opciono)**
 - Ako želite da preuzmete fajlove sajta (HTML, CSS, JS) i postavite ih na svoj server:
