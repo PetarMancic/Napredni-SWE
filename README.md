@@ -3,9 +3,9 @@ __Repozitorijum koji ce se koristiti za kacenje materijala koji je potreban za p
 
 ## Tutorijal za _Webflow_: Razvoj interaktivnih _web_ sajtova bez kodiranja  
 
-## **1. O projektu**
+## **1. O samom readme.md fajlu**
 
-Projekat služi kao tutorijal za korišćenje Webflow-a. Glavni cilj je da se:  
+Fajl služi kao tutorijal za korišćenje Webflow-a. Glavni cilj je da se:  
 - Ukaže na prednosti ovog moćnog alata.  
 - Prikaže kako se _Webflow_ koristi za kreiranje interaktivnih i responzivnih *web*-sajtova.  
 - Objasni struktura i način rada sa *Webflow-om* (od instalacija do _publish_-ovanja Vaseg prvog _web_ sajta)
@@ -45,21 +45,21 @@ Ovaj alat je idealan za one koji teže profesionalnim rezultatima, a žele da pr
 Odmah cemo napomenuti da instalacija koja je potrebna u nekim ddrugim tenhologijama poput Reacta, Angulara, ovde nije potrebna.
 Da biste pokrenuli i kreirali Webflow projekat, pratite sledeće korake:
 
-### **1. Registracija i prijava na Webflow**
+### **- Registracija i prijava na Webflow**
 - Posetite [Webflow zvaničnu stranicu](https://webflow.com).
 - Kliknite na "Get Started" ili "Sign Up" ako još nemate nalog.
 - Izgled oficijalnog WebFlow sajta ![Webflow official site](assets/WebFlowOfficialSite.png)
 - Registrujte se koristeći email adresu ili Google nalog.
 - Prijavite se u svoj Webflow nalog.
 
-### **2. Kreiranje novog projekta**
+### **- Kreiranje novog projekta**
 - Kada se prijavite, na početnoj stranici kliknite na **"Create New Project"**.
 - ![Izgled WebFlow sajta nakon uspenog prijavljivanja](assets/Izgled%20sajta%20nakon%20logovanja.png)
 - Izaberite jedan od dostupnih **template-a** (predloženih) ili izaberite **blank project** za kreiranje sajta od nule.
   - Ako koristite predložak, samo odaberite dizajn koji vam se sviđa.
   - Ako birate praznu opciju, bićete preusmereni na prazan radni prostor gde možete početi sa dizajnom.
 
-### **3. Dizajniranje sajta**
+### **- Dizajniranje sajta**
 -![Ovako izgleda novi projekat koji se pokrene ](assets/New%20Project.png)
 -Sa leve strane se nalazi takozvani "HTML" panel, koji sluzi za dodavanje razlicih elemanata, divova, sekcija, buttons, itd
 -Sa desne strane se nalazi "CSS" panel, koji se koristi za stilizaciju dodatih elemanata i stranice u potpunosti.
@@ -67,18 +67,18 @@ Da biste pokrenuli i kreirali Webflow projekat, pratite sledeće korake:
 - **Stilizovanje**: Na desnoj strani, možete koristiti opcije za stilizovanje svakog elementa, kao što su boje, margine, padding, veličine fontova i druge opcije.
 - **Responsive**: Webflow automatski prilagođava dizajn za različite uređaje (mobilne telefone, tablete, desktop), ali možete dodatno prilagoditi dizajn za svaki uređaj putem opcije "Device Preview".
 
-### **4. Dodavanje interakcija i animacija**
+### **- Dodavanje interakcija i animacija**
 -WebFlow tehnologija omogucava da na veoma lak i intuitivan nacin dodamo animacije nekim elementima koji smo prethodno dodali.
 - Da biste dodali animacije i interakcije, izaberite element koji želite da animirate.
 - U panelu desno izaberite opciju **"Interactions"** i postavite željene animacije kao što su prelazi (transitions), hover efekti ili animacije pri skrolovanju stranice.
 
-### **5. Postavljanje domena (opciono)**
+### **- Postavljanje domena (opciono)**
 - Ako želite da povežete svoj Webflow projekat sa sopstvenim domenom:
   - Idite na **Project Settings** > **Hosting**.
   - Unesite naziv svog domena u polje **"Custom Domain"**.
   - Slijedite instrukcije da povežete domen i postavite DNS zapise kod svog hosting provajdera.
 
-### **6. Pregled sajta**
+### **- Pregled sajta**
 ### **Pregled sajta pre objavljivanja**
 
 Pre nego što objavite svoj projekat, preporučuje se da ga pregledate kako biste osigurali da sve funkcioniše kako ste zamislili. Slede koraci za pregled:
@@ -100,7 +100,7 @@ Pre nego što objavite svoj projekat, preporučuje se da ga pregledate kako bist
 
 Ovaj korak je ključan kako biste osigurali da vaš sajt izgleda profesionalno i da funkcioniše ispravno pre nego što ga objavite.
 
-### **7. Publikovanje sajta**
+### **- Publikovanje sajta**
 
 Kada ste završili sa dizajnom i pregledom sajta, poslednji korak je da ga objavite i učinite dostupnim publici. Evo kako to možete da uradite:
 
@@ -128,14 +128,86 @@ Kada ste završili sa dizajnom i pregledom sajta, poslednji korak je da ga objav
 Ovaj proces omogućava da vaš projekat bude dostupan široj publici, bilo na besplatnom Webflow domenu ili vašem sopstvenom prilagođenom domenu.
 
 
-### **8. Preuzimanje Webflow fajlova (opciono)**
+### **- Preuzimanje Webflow fajlova (opciono)**
 - Ako želite da preuzmete fajlove sajta (HTML, CSS, JS) i postavite ih na svoj server:
   - Idite na **Project Settings** > **Code Export**.
   - Kliknite na **"Prepare ZIP"** da preuzmete sve potrebne fajlove.
 
 ---
-
 Ovo su osnovni koraci za kreiranje i pokretanje Webflow projekta. Nakon što završite sa dizajniranjem, možete dalje prilagođavati sajt, dodavati nove stranice i funkcionalnosti prema potrebi.
+
+## **4. Zasto bas WebFlow?**
+
+
+### 1. **WebFlow je tehnologija koja ne koristi klasicno kodiranje**
+- Webflow omogućava korisnicima da kreiraju složene i profesionalne web stranice koristeći intuitivni vizuelni interfejs. 
+- Umesto ručnog pisanja HTML, CSS i JavaScript koda, Webflow automatski generiše čist i dobro strukturiran kod.
+- **Primer:** Dizajner može kreirati prilagođeni raspored stranice samo prevlačenjem i postavljanjem elemenata, bez angažovanja programera. Na primer, dodavanje dugmeta sa prilagođenim stilovima zahteva samo nekoliko klikova u panelu sa stilovima.
+
+Pored toga što eliminiše potrebu za klasičnim kodiranjem, gde programer ručno piše svaku liniju koda, Webflow donosi revoluciju u proces kreiranja sajtova koristeći jednostavan i intuitivan drag-and-drop sistem. Umesto mukotrpnog tipkanja i testiranja, korisnici mogu vizuelno oblikovati svoje ideje – prevlačeći i postavljajući elemente tačno tamo gde žele.
+
+U pozadini, Webflow automatski generiše čist i profesionalan HTML i CSS kod, pažljivo prilagođen svakoj akciji dizajnera. Ovo znači da, dok vi kreirate prelepe rasporede i vizuelne efekte, Webflow istovremeno obavlja sav tehnički posao. Ovaj pristup ne samo da štedi vreme već osigurava i tehnički besprekornu osnovu za vaš sajt.
+
+---
+
+### 2. **Potpuna kontrola nad projektom**
+- Iako je Webflow vizuelni alat, on ne ograničava dizajnere. Pruža potpunu kontrolu nad svakom komponentom stranice, uključujući:
+  - **Prilagođene stilove:** Detaljno podešavanje margina, razmaka, fontova i boja.
+  - **Animacije i interakcije:** Lako kreiranje složenih animacija bez koda.
+  - **Media queriji:** Podešavanje odgovarajućeg dizajna za različite veličine ekrana.
+- **Primer:** Umesto da koristi fiksne šablone, korisnik može ručno definisati izgled stranica za mobilne uređaje, tablete i desktop.
+
+---
+
+### 3. **Sve na jednom mestu**
+- Webflow kombinuje alate za dizajn, razvoj i hosting u jednoj platformi, štedeći vreme i novac.
+  - **Dizajn:** Intuitivni interfejs za vizuelno kreiranje stranica.
+  - **Razvoj:** Generisanje kvalitetnog i čitljivog koda.
+  - **Hosting:** Webflow pruža brz i pouzdan cloud hosting.
+- **Primer:** Nakon kreiranja web sajta, korisnik može da klikne na "Publish" i web stranica će biti odmah dostupna, bez potrebe za spoljnim hosting provajderima.
+
+---
+
+### 4. **SEO prijateljski**
+- Webflow ima ugrađene SEO alate koji omogućavaju optimizaciju web stranice za pretraživače:
+  - **Meta podaci:** Lako dodavanje meta title i description za svaku stranicu.
+  - **Alt tekst za slike:** Poboljšanje dostupnosti i optimizacije.
+  - **Čist kod:** Webflow generiše strukturisan kod koji pretraživači lakše indeksiraju.
+  - **Prilagođeni URL-ovi:** Mogućnost uređivanja strukture linkova.
+  - **Sitemap:** Automatsko generisanje XML mape sajta.
+- **Primer:** Dizajner može direktno u Webflow-u da podesi SEO parametre za sve blog postove u okviru CMS-a, što poboljšava rangiranje na Google-u.
+
+---
+
+### **Ključne prednosti Webflow-a u praksi:**
+- **Vreme izrade:** Ušteda vremena uz brži proces od dizajna do objavljivanja.
+- **Pristupačnost:** Platforma je intuitivna čak i za početnike.
+- **Profesionalni rezultati:** Webflow omogućava kreiranje web stranica koje izgledaju kao da su ih kreirali iskusni programeri.
+
+### Ninja Flow 
+
+**Flow Ninja** je renomirana agencija specijalizovana za razvoj Webflow platformi, sa sedištem u **Nišu, Srbija**. Osnovana 2015. godine, agencija je stekla međunarodnu reputaciju kao vodeći partner u Webflow zajednici.
+
+Tim agencije broji više od 50 stručnjaka, uključujući dizajnere, programere, SEO eksperte i projektne menadžere, koji zajedno pružaju sveobuhvatne usluge za izradu i optimizaciju veb sajtova. 
+
+#### Nagrade i priznanja:
+- **2023. godine** Flow Ninja je proglašena za **Webflow Enterprise Partner of the Year**, što potvrđuje njihov visok nivo stručnosti i posvećenosti.
+- Agencija je realizovala više od **200 uspešnih projekata**, uključujući razvoj e-commerce rešenja, SEO optimizaciju, integraciju sa trećim stranama i kreaciju prilagođenih dizajnerskih sistema.
+
+#### FLOWconf:
+- Pored toga, **Flow Ninja** je organizator **FLOWconf-a**, najveće evropske konferencije posvećene Webflow tehnologiji, koja se održava u Nišu. Ova konferencija okuplja stručnjake i entuzijaste iz oblasti veb dizajna i razvoja, pružajući platformu za razmenu znanja i iskustava.
+
+#### Posvećenost inovacijama:
+Kroz svoju posvećenost inovacijama i kvalitetu, **Flow Ninja** je postala ključni igrač u Webflow zajednici, pružajući klijentima širom sveta napredna rešenja za izradu i optimizaciju veb sajtova.
+
+Za više informacija, posetite [Flow Ninja zvanični sajt](https://www.flow.ninja/about-us?utm_source=chatgpt.com).
+
+
+
+  ## **5. Moj projekat**
+
+
+
 
 
 
