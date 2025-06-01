@@ -168,7 +168,7 @@ U pozadini, Webflow automatski generiše čist i profesionalan HTML i CSS kod, p
 
 ---
 
-### 4. **SEO prijateljski**
+### 4. **SEO **
 - Webflow ima ugrađene SEO alate koji omogućavaju optimizaciju web stranice za pretraživače:
   - **Meta podaci:** Lako dodavanje meta title i description za svaku stranicu.
   - **Alt tekst za slike:** Poboljšanje dostupnosti i optimizacije.
@@ -178,6 +178,85 @@ U pozadini, Webflow automatski generiše čist i profesionalan HTML i CSS kod, p
 - **Primer:** Dizajner može direktno u Webflow-u da podesi SEO parametre za sve blog postove u okviru CMS-a, što poboljšava rangiranje na Google-u.
 
 ---
+
+### 🔗 **Integracija Zapier-a sa Webflow-om za automatizovano slanje email notifikacija**
+
+U okviru ovog **Webflow** projekta implementirao sam automatizaciju pomoću **Zapier** platforme, sa ciljem da se nakon uspešnog popunjavanja forme na sajtu automatski pošalje **email notifikacija** sa sadržajem unetih podataka.  
+Ovakav pristup eliminiše potrebu za server-side logikom i omogućava *efikasnu, pouzdanu i skalabilnu* obradu korisničkih unosa u realnom vremenu.
+
+---
+
+### 🎯 **Cilj integracije**
+
+- 📥 *Pratiti* form submissions sa Webflow sajta  
+- ✉️ *Automatizovati* proces slanja email notifikacije na definisanu adresu  
+- 🔁 *Obezbediti* održivo i lako skalabilno rešenje bez korišćenja backend servera
+
+---
+
+### 🔧 **Tehnička realizacija**
+
+#### 1. **Kreiranje forme u Webflow-u**
+
+U **Webflow Designer-u**, na odgovarajućoj stranici postavljena je forma koja sadrži sledeća polja:
+
+- **Name** (`input`)
+- **Company name** (`input`)
+- **Email address** (`input`)
+- **Your message** (`textarea`)
+
+Forma je dobila jedinstven *ID* radi lakšeg referenciranja.  
+Takođe, deaktivirana je Webflow-ova podrazumevana logika za form submissions, kako bi se koristio eksterni endpoint.
+
+---
+
+#### 2. **Postavljanje Zapier Webhook-a**
+
+Na **Zapier** platformi kreiran je novi *Zap* sa sledećom strukturom:
+
+- **Trigger:** `Webhooks by Zapier – Catch Hook`  
+  - Automatski generisani **Webhook URL** koristi se kao endpoint koji prima podatke sa Webflow forme  
+  - Testiran je *payload* pomoću test requesta direktno iz Webflow-a
+
+- **Action:** `Email by Zapier`  
+  - Nakon što Webhook primi podatke, sledeći korak u Zap-u koristi te podatke za formiranje i slanje emaila  
+  - U telu emaila dinamički se koriste vrednosti iz forme (**Name**, **Email**, **Message**), čime se kreira jasno strukturirana notifikacija
+
+---
+
+#### 3. **Konfiguracija Webflow forme za korišćenje Webhook-a**
+
+- U okviru *Form Settings*, kao **Form Action** postavljen je **Zapier Webhook URL**
+- Metoda slanja je postavljena na `POST`
+- Obavezno je čekiran **Disable Webflow form handling** kako ne bi došlo do konflikta sa custom endpoint-om
+
+---
+
+#### 4. **Testiranje i verifikacija**
+
+- ✅ Višestruki testovi izvršeni su pomoću *Webflow live preview*-a
+- 🧪 U Zapier-u je korišćena opcija **Test Trigger** za proveru pristizanja payload-a
+- 📩 Verifikovano je da svi podaci pravilno mapiraju u telo email poruke
+
+---
+
+### 🧩 **Ključne koristi ovog rešenja**
+
+- **Bez servera** – kompletna automatizacija bez potrebe za backend infrastrukturom  
+- **Pouzdanost** – Zapier omogućava monitoring, retry logiku i transparentan pregled izvršenih akcija  
+- **Skalabilnost** – moguće je lako proširiti Zap sa dodatnim akcijama (npr. upis u Google Sheet, Slack, CRM...)  
+- **Brza implementacija** – funkcionalnost se postavlja za svega nekoliko minuta
+
+---
+
+### 📎 **Napomene i preporuke**
+
+- 🔄 **Zapier besplatni plan** ima ograničen broj izvršavanja mesečno – za veći obim upotrebe potrebno je preći na plaćeni plan  
+- 📑 Ako se koristi više formi na sajtu, preporučuje se kreiranje posebnog *Zapa* za svaku (ili korišćenje **filtera** unutar jednog Zapa)  
+- 📨 Kod slanja na više email adresa, moguće je koristiti `Email by Zapier` sa više recipient polja, ili preusmeriti na servise poput **Gmail**, **SendGrid**, **Mailgun**, itd.
+
+---
+
 
 ### **Ključne prednosti Webflow-a u praksi:**
 - **Vreme izrade:** Ušteda vremena uz brži proces od dizajna do objavljivanja.
