@@ -16,7 +16,7 @@ Fajl služi kao tutorijal za korišćenje Webflow-a. Glavni cilj je da se:
 
 ### **Istorija Webflow-a**
 
-Webflow je osnovan 2013. godine u San Francisku od strane **Vlad Magdalina**, **Sergeja Magdalin**. **Bryant Chou**  Ideja za Webflow proizašla je iz potrebe za alatkom koja bi omogućila dizajnerima da stvaraju profesionalne veb sajtove bez potrebe za angažovanjem programera ili učenjem koda. Osnivači su želeli da reše problem u industriji veb dizajna, gde su dizajneri morali da koriste složene alate ili rade u saradnji sa developerima kako bi implementirali njihove dizajnerske ideje.
+Webflow je osnovan 2013. godine u San Francisku od strane **Vlad Magdalina**, **Sergeja Magdalin** i **Bryant Chou**. Ideja za Webflow proizašla je iz potrebe za alatkom koja bi omogućila dizajnerima da stvaraju profesionalne veb sajtove bez potrebe za angažovanjem programera ili učenjem koda. Osnivači su želeli da reše problem u industriji veb dizajna, gde su dizajneri morali da koriste složene alate ili rade u saradnji sa developerima kako bi implementirali njihove dizajnerske ideje.
 
 Kroz prve godine razvoja, Webflow je odjednom postao popularan zbog svoje jedinstvene kombinacije dizajnerskog interfejsa i sposobnosti generisanja čistog koda. Platforma je omogućila profesionalnim dizajnerima da sami kontrolišu kako će sajt izgledati i funkcionisati, a istovremeno su imali pristup tehničkoj strani veb sajtova bez potrebe da budu stručnjaci za kodiranje.
 
