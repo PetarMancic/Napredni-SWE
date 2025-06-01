@@ -227,6 +227,7 @@ Na **Zapier** platformi kreiran je novi *Zap* sa sledećom strukturom:
   - Nakon što Webhook primi podatke, sledeći korak u Zap-u koristi te podatke za formiranje i slanje emaila  
   - U telu emaila dinamički se koriste vrednosti iz forme (**Name**, **Email**, **Message**), čime se kreira jasno strukturirana notifikacija
 
+![Zapier](./assets/Zapier.png)
 ---
 
 #### 3. **Konfiguracija Webflow forme za korišćenje Webhook-a**
