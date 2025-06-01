@@ -205,6 +205,11 @@ U **Webflow Designer-u**, na odgovarajućoj stranici postavljena je forma koja s
 - **Email address** (`input`)
 - **Your message** (`textarea`)
 
+- ### Prikaz forme u Webflow-u
+
+![Webflow forma](./assets/Submit%20form.png)
+
+
 Forma je dobila jedinstven *ID* radi lakšeg referenciranja.  
 Takođe, deaktivirana je Webflow-ova podrazumevana logika za form submissions, kako bi se koristio eksterni endpoint.
 
