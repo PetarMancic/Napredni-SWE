@@ -5,7 +5,7 @@
 
 ## 📷 Slike
 
-1. [Inicijalni izgled aplikacije](../loading%20app.png)  
+1. [Inicijalni izgled aplikacije](loading%20app.png)  
    Prilikom pokretanja aplikacije prikazuje se overlay koji traje 0.3 sekunde, a zatim se pomera u stranu i otkriva **Hero section**.
 
 2. [Hero section](../hero%20section.png)  
