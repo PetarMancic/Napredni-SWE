@@ -39,10 +39,35 @@ Pored toga, Webflow integriše sistem za upravljanje sadržajem (CMS), pruža op
 - **Sveobuhvatno rešenje za razvoj veb-sajtova**: Pored dizajna i razvoja, Webflow obuhvata hosting, upravljanje sadržajem i održavanje sajta, što značajno pojednostavljuje ceo proces.  
 
 Ovaj alat je idealan za one koji teže profesionalnim rezultatima, a žele da prevaziđu ograničenja tradicionalnih metoda razvoja.
+<br>
+
+ ### **Problemi koje resava Webflow-a**
+ ___
+ 
+## **3. Problemi koje Webflow rešava**:
+-  **Nedostatak znanja programiranja**
+Mnogi korisnici nemaju tehničko znanje za rad sa HTML-om, CSS-om i JavaScript-om. Webflow omogućava izradu kompleksnih sajtova pomoću "drag-and-drop" interfejsa, bez potrebe za kodiranjem.
+
+- **Spor razvoj i komunikacija u timu**
+Tradicionalno, dizajner pravi prototip, a programer ga naknadno implementira. Webflow eliminiše ovaj korak, jer omogućava dizajnerima da direktno kreiraju funkcionalne sajtove.
+
+- **Zavisnost od programera za sitne izmene**
+Promene teksta, slika ili strukture sajta korisnik može da uradi sam, bez uključivanja dodatnog osoblja.
+
+- **Teško testiranje responzivnosti**
+Webflow nudi ugrađeni pregled sajta na različitim uređajima (desktop, tablet, telefon), što olakšava pravljenje responzivnog dizajna.
+
+- **Loša SEO optimizacija**
+Za razliku od drugih "no-code" alata, Webflow generiše čist, semantički kod, koji je lako indeksirati i optimizovati za pretraživače.
+
+- **Hosting i tehnička održavanja**
+Webflow obezbeđuje bezbedan hosting, automatski backup, SSL sertifikat i brzu isporuku putem globalnog CDN-a – bez potrebe za dodatnim konfiguracijama.
+
+
 
 ## **4. Koraci za kreiranje i pokretanje Webflow projekta**
 
-Odmah cemo napomenuti da instalacija koja je potrebna u nekim ddrugim tenhologijama poput Reacta, Angulara, ovde nije potrebna.
+**Odmah** cemo napomenuti da instalacija koja je potrebna u nekim ddrugim tenhologijama poput Reacta, Angulara, ovde nije potrebna.
 Da biste pokrenuli i kreirali Webflow projekat, pratite sledeće korake:
 
 ### **- Registracija i prijava na Webflow**
@@ -136,7 +161,7 @@ Ovaj proces omogućava da vaš projekat bude dostupan široj publici, bilo na be
 ---
 Ovo su osnovni koraci za kreiranje i pokretanje Webflow projekta. Nakon što završite sa dizajniranjem, možete dalje prilagođavati sajt, dodavati nove stranice i funkcionalnosti prema potrebi.
 
-## **4. Zasto bas WebFlow?**
+## **5. Zasto bas WebFlow?**
 
 
 ### 1. **WebFlow je tehnologija koja ne koristi klasicno kodiranje**
