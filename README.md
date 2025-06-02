@@ -193,7 +193,7 @@ U pozadini, Webflow automatski generiše čist i profesionalan HTML i CSS kod, p
 
 ---
 
-### 4. **SEO **
+### 4. **SEO**
 - Webflow ima ugrađene SEO alate koji omogućavaju optimizaciju web stranice za pretraživače:
   - **Meta podaci:** Lako dodavanje meta title i description za svaku stranicu.
   - **Alt tekst za slike:** Poboljšanje dostupnosti i optimizacije.
