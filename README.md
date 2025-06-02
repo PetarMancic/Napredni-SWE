@@ -314,6 +314,16 @@ Za više informacija, posetite [Flow Ninja zvanični sajt](https://www.flow.ninj
 
 
 
+### 📎 **5. MOJ PROJEKAT**
+---
+
+ℹ️ ### **Napomena**
+**Ovaj projekat je izrađen pomoću Webflow platforme, koja omogućava vizuelno kreiranje modernih i responzivnih veb-sajtova bez potrebe za pisanjem koda.
+Međutim, Webflow zahteva plaćeni plan kako bi se omogućio izvoz koda (HTML, CSS, JS), pa kod ovog sajta nije priložen u repozitorijumu.**
+
+✅ *Projekat možete pogledati na sledećem linku:*
+👉 [https://PetarMancicPortfolio.webflow.io](https://portfolio-02253e.webflow.io/)
+
 
 
 
