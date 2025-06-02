@@ -38,7 +38,7 @@
 11. [Uspešno slanje maila](slanje%20maila.png)  
     Izgled forme nakon uspešnog slanja emaila.
 
-12. [Primljeni mail](Izgled%20primljenog%20maila.png)  
+12. [Primljeni mail](Izgled%20primeljenog%20maila.png)  
     Kako izgleda mail koji je primljen na adresu primaoca.
 
 13. [Linkovi ka društvenim mrežama](Linkovi%20ka%20drustvenim%20mrezama.png)  
